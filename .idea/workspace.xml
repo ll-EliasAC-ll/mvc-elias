@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd89919c-7e6b-436e-8be7-40c47ba626f6" name="Default Changelist" comment="" />
+    <list default="true" id="bd89919c-7e6b-436e-8be7-40c47ba626f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/clases/Usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/clases/Usuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controladores/ControladorUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controladores/ControladorUsuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vistas/uCrear.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/vistas/uCrear.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../marvel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -37,6 +44,8 @@
       <updated>1608159835866</updated>
       <workItem from="1608159837862" duration="161000" />
       <workItem from="1608160000371" duration="647000" />
+      <workItem from="1608650119427" duration="7113000" />
+      <workItem from="1608687984924" duration="3288000" />
     </task>
     <servers />
   </component>

@@ -12,12 +12,40 @@ class Usuario{
     private $tipo;
     private $id_pa;
 
+    public function getCodigo()
+    {
+        return $this->codigo;
+    }
+
+    public function setCodigo($codigo): void
+    {
+        $this->codigo = $codigo;
+    }
+
     public function mostrarPorCodigo($codigo)
     {
         try {
             $conexionDB = new Conexion();
             $conn = $conexionDB->abrirConexion();
             $sql = "SELECT * FROM usuarios WHERE codigo=$codigo";
+
+            $stmt = $conn->prepare($sql);
+            $stmt->execute();
+            //$resultado = $stmt->fetchAll();
+
+            $conexionDB->cerrarConexion();
+            return $stmt;
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
+    }
+
+    public function mostrarEstudiantes()
+    {
+        try {
+            $conexionDB = new Conexion();
+            $conn = $conexionDB->abrirConexion();
+            $sql = "SELECT * FROM usuarios WHERE tipo='estudiante'";
 
             $stmt = $conn->prepare($sql);
             $stmt->execute();

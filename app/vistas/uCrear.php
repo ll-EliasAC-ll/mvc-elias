@@ -14,8 +14,10 @@ include_once "app/vistas/layout/header.php";
             <option value="estudiante">Estudiante</option>
             <option value="profesor">Profesor</option>
             <option value="administrador">Administrador</option>
-        </select>
+        </select><br>
         <input type="submit" class="btn btn-primary" name="submit" value="Guardar">
+        <button id="btnValidar">Validar</button>
+        <div id="result"></div>
     </div>
 </form>
 <?php
@@ -30,3 +32,16 @@ if(isset($_POST["submit"])){
     echo $controladorUsuario->crearUsuario($nombres, $apellidos, $codigo, $password, $tipo);
 }
 include_once "app/vistas/layout/footer.php";
+?>
+<script>
+    $("#btnValidar").click(function(){
+        var codigo = $("#codigo").val();
+        $.post("index.php?validar",
+            {
+                codigo: codigo
+            },
+            function (data, status){
+                alert(data);
+        });
+    });
+</script>

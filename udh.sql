@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-12-2020 a las 23:53:49
+-- Tiempo de generación: 23-12-2020 a las 03:48:39
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.2.33
 
@@ -163,7 +163,13 @@ INSERT INTO `usuarios` (`id`, `codigo`, `pass`, `tipo`, `id_pa`, `nombres`, `ape
 (16, 99996666, '$2y$10$WunaGNnrcaa8RpJY5vFvfOQ51h7sAlvwecZqB9jD20B3jbI/ZFO4G', 'estudiante', 1, 'Abel', 'Domingues'),
 (17, 71539331, '$2y$10$74pkXMLTjZ98qvRwH8eQ6ezSDcNAjQ.3wOmRkvHguV4BHHlQY3I9K', 'administrador', 1, 'Elias ', 'Alvarez Calderon'),
 (18, 66665555, '$2y$10$sNPRQTy7gIGVkRvHuR/zcOOzI.HUgihS1toYEj60J7pUzkaRYB3l6', 'estudiante', 1, 'Piero', 'Cordova'),
-(19, 99991111, '$2y$10$GmrOMZImO5.HTUuNkeRn6OKsIzbEdm5E3/kD0XH7OpWs1FXEE6F5G', 'administrador', 1, 'Juan', 'Perez');
+(19, 99991111, '$2y$10$GmrOMZImO5.HTUuNkeRn6OKsIzbEdm5E3/kD0XH7OpWs1FXEE6F5G', 'administrador', 1, 'Juan', 'Perez'),
+(20, 10001000, '$2y$10$WCMOqZPFCLTu7FOhnkEMjeYxUFUPz9hnU.AWEfuMvzDadE.nqiA3y', 'estudiante', 1, 'Miguel', 'Garcia'),
+(21, 20002000, '$2y$10$aqtHnOm45HJkcUEZ7cQMaeqNobDCAs2/A6JdeAHNAgmdDlabXVR9m', 'estudiante', 1, 'Vanessa', 'Tucto'),
+(22, 12345678, '$2y$10$LQxpD2Whb99A95.ch7CRmugWZELyQmf19TmrGzdsVlrYjVa9Fi9O2', 'estudiante', 1, 'Astrid', 'Domingues'),
+(23, 11115555, '$2y$10$6w6QkLIGLB90CXqtUfPFiuaVpry8u3krIRYCinjrooA.tsR/HbVRu', 'estudiante', 1, 'Chabelo', 'Domingo'),
+(24, 99996666, '$2y$10$eP0uf7mOC3R3KEXHb5nA8.YyrTjvuMkTrLs6NPt4IsJCJt6OreILO', 'estudiante', 1, 'Elias ', 'Alva'),
+(25, 88885555, '$2y$10$mmzaUbBGbOJNgQJFaU7Rz./CT3iBtHCw9aux0i8CoW96fz61e3V5m', 'estudiante', 1, 'Juan', 'Calderon');
 
 --
 -- Índices para tablas volcadas
@@ -231,7 +237,7 @@ ALTER TABLE `pa`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
